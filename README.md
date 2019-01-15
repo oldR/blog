@@ -8,3 +8,15 @@ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-htmlclean gulp --save
 hexo g && gulp
 ```
 
+#### 其他插件
+```sh
+cd themes/next
+# 加载进度条
+git clone https://github.com/theme-next/theme-next-pace source/lib/pace
+
+# 阅读进度条
+git clone https://github.com/theme-next/theme-next-reading-progress source/lib/reading_progress
+
+# 分享
+git clone https://github.com/theme-next/theme-next-needmoreshare2 source/lib/needsharebutton
+```
