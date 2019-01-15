@@ -3,3 +3,8 @@
 npm install gulp -g
 npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-htmlclean gulp --save
 ```
+#### 压缩命令
+```sh
+hexo g && gulp
+```
+
